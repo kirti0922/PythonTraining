@@ -47,7 +47,7 @@ emp = [['emp_no', 'emp_name', 'sal', 'dept'],
 
 import csv
 CSV_FILE = os.path.join(ASSET_PATH, 'emp_csv.csv')
-with open(CSV_FILE, 'w') as file:
+with open(CSV_FILE, 'w',newline='') as file:
     csv_writer = csv.writer(file)
     csv_writer.writerows(emp)
 
