@@ -12,6 +12,7 @@
 
 
 prime_num=int(input("Enter a number: "))
+print("prime numbers are :")
 for i in range(1,prime_num+1):
     cnt=0
     for j in range(1,i+1):
